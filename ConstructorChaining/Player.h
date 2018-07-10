@@ -21,10 +21,7 @@ private:
 	//Constructor chaining example in C++
 public:
 	Player();
-	Player(string newName) {
-		name = newName;
-		level = 1;
-	}
+
 	Player(string newName, int level);
 
 	string toString();

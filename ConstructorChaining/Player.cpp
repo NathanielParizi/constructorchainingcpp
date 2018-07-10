@@ -16,10 +16,14 @@ Player::Player(){
 
 }
 
+
+
 Player::Player(string newName, int newLevel){
 	name = newName;
-	level = newLevel;
+	this->level = newLevel; //referring to the private instance variable level found encapsulated in player class
 }
+
+
 
 string Player::toString() {
 
