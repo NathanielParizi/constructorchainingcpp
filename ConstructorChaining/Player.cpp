@@ -9,11 +9,7 @@
 #include "Player.h"
 #include <sstream>
 
-Player::Player(){
-
-	 name = "";
-	 level = 1;
-
+Player::Player(): name("Unnamed"), level(1){
 }
 
 
