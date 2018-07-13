@@ -4,7 +4,7 @@
  *  Created on: Jul 10, 2018
  *      Author: Nathaniel Parizi
  */
-
+// Partial constructor chaining in C++ is referred to as "delegating constructors"
 
 #include <iostream>
 using namespace std;
